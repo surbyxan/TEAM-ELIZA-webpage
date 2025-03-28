@@ -77,3 +77,43 @@
 .appbox{
   margin-top: 2rem;
 }
+
+
+/****mobile compatible code**/
+@media screen and (max-width: 768px) {
+  .topbar {
+    padding-left: 1rem; 
+    flex-direction: row; 
+
+  }
+
+  .mainbody {
+    flex-direction: column; 
+    margin-left: 0; 
+    padding: 1rem; 
+    align-items: center;
+  }
+  .infobox{
+    width: 85%;
+  }
+  .visualbox{
+    margin-left: 0;
+    width: 85%;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .visualbox{
+    flex-direction: column;
+  
+  }
+  .newsbox{
+    margin-left: 0;
+    font-size: medium;
+  }
+  .teamelizatext{
+     text-align: left; 
+  }
+}
