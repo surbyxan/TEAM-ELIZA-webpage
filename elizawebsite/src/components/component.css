@@ -76,7 +76,7 @@
 	left: calc(-5em + 50%);
 	position: absolute;
 	text-align: center;
-	width: 10em;
+	width: 13em;
 	z-index: 999;
   }
   .map-city__sign {

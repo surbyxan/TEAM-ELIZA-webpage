@@ -40,13 +40,14 @@ function App() {
             <h3 class="headers">TEAM MEMBERS</h3>
             <span>
               <Teammember></Teammember>
-            <p>We are Team Eliza!</p>
+            <p class="teamelizatext">We are Team Eliza!</p>
             </span>
 
           </div>
           <div class='newsbox'>
               <h5>Lastets news from DroneZone</h5>
               <p>
+                
                 We have started the development on the application and are in
                 the beginning of our frist sprint out of three. The basic application structure are done 
                 and we are in the progress of designing and implementing the foundation of our ideas.

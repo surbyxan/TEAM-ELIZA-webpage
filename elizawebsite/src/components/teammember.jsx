@@ -13,13 +13,13 @@ export function Teammember() {
 		  </svg>
 		  <div className="map-cities">
 			{[
-			  { x: 5, y: 67, icon: "🏖️", name: "Henrietta Gidehag" },
-			  { x: 32, y: 32, icon: "🌷", name: "Rebecca Ehrnroot From", anim: "anim-grow" },
-			  { x: 58, y: 83, icon: "🏄", name: "Jesper Hesselgren", anim: "anim-slidein" },
-			  { x: 65, y: 22, icon: "🏛️", name: "Alexander Timsäter" },
-			  { x: 87, y: 58, icon: "🎢", name: "Rasmus Sundbom" },
-			  { x: 94, y: 38, icon: "🌊", name: "Wasim Shamieh", anim: "anim-slidein" },
-			  { x: 44, y: 50, icon: "🌷", name: "Malin Andreasson", anim: "anim-grow" },
+			  { x: 5, y: 67,  name: "Henrietta Gidehag" },
+			  { x: 32, y: 32, name: "Rebecca Ehrnrooth From", anim: "anim-grow" },
+			  { x: 58, y: 83,  name: "Jesper Hesselgren", anim: "anim-slidein" },
+			  { x: 65, y: 22,  name: "Alexander Timsäter" },
+			  { x: 87, y: 58,  name: "Rasmus Sundbom" },
+			  { x: 94, y: 38,  name: "Wasim Shamieh", anim: "anim-slidein" },
+			  { x: 44, y: 55,  name: "Malin Andreasson", anim: "anim-grow" },
 			].map((city, index) => (
 			  <div key={index} style={{ "--x": city.x, "--y": city.y }} className="map-city">
 				<div className="map-city__label">
