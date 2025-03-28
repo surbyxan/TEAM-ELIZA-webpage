@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import './App.css'
 import { Teammember } from './components/teammember'
 import './components/component.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
    <div>
@@ -16,7 +14,7 @@ function App() {
           </button>
          </span>
       </div>
-      <div class='body'>
+      <div class='mainbody'>
         <div class='infobox'>
           <div >
             <h3 class="headers">About us</h3>
@@ -45,9 +43,9 @@ function App() {
 
           </div>
           <div class='newsbox'>
-              <h5>Lastets news from DroneZone</h5>
+              <h4>Lastets news from DroneZone</h4>
+              <p class="date" >March 27th</p>
               <p>
-                
                 We have started the development on the application and are in
                 the beginning of our frist sprint out of three. The basic application structure are done 
                 and we are in the progress of designing and implementing the foundation of our ideas.
