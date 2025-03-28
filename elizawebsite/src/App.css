@@ -9,6 +9,7 @@
   font-family: 'Helvetica';
   font-style: italic;
   font-weight: bolder;
+  width: 70%;
 }
 
 .topbar{
@@ -18,6 +19,14 @@
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
   padding-left: 2rem;
   background-color:white;
+  display: flex;
+  flex-direction: row;
+}
+
+.contactbox{
+  display: flex;
+  align-items: center;
+  margin: 0 2rem 0 5rem;
 }
 
 .body{
@@ -31,6 +40,7 @@
   /*font-size: 1.875rem; */
   font-weight: bold;
   color: #4a5568; /* Equivalent to text-gray-700 */
+  
  
 }
 
@@ -44,5 +54,19 @@
 
 .visualbox{
   margin-left: 6rem;
-  width: 40%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.teambox{
+
+}
+
+.newsbox{
+  margin-left: 6rem;
+}
+
+.appbox{
+  margin-top: 2rem;
 }

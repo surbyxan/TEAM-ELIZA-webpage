@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import { Teammember } from './components/teammember'
+import './components/component.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,7 +9,12 @@ function App() {
   return (
    <div>
       <div class="topbar">
-      <h1 class="headers">TEAM <span class="highlight">ELIZA</span></h1>
+        <h1 class="headers">TEAM <span class="highlight">ELIZA</span></h1>
+        <span class='contactbox'>
+          <button>
+            <a href="mailto:teameliza@patron.me" class="btn2"><span class="spn2">Contact Us</span></a>
+          </button>
+         </span>
       </div>
       <div class='body'>
         <div class='infobox'>
@@ -18,7 +25,7 @@ function App() {
               three sprints and be finished 16th of May.
             </p>
           </div>
-          <div>
+          <div class='appbox'>
             <h3 class="title">Drone<span class="highlight">Zone</span></h3>
             <p>
             DroneZone is the webapplication for synchronizing and viewing currently 
@@ -29,21 +36,21 @@ function App() {
           </div>
         </div>
         <div class='visualbox'>
-          <div >
+          <div class='teambox'>
             <h3 class="headers">TEAM MEMBERS</h3>
             <span>
+              <Teammember></Teammember>
             <p>We are Team Eliza!</p>
-              
             </span>
 
           </div>
-          <div>
-            <h5>Lastets news from DroneZone</h5>
-            <p>
-              We have started the development on the application and are in
-              the beginning of our frist sprint out of three. The basic application structure are done 
-              and we are in the progress of designing and implementing the foundation of our ideas.
-            </p>
+          <div class='newsbox'>
+              <h5>Lastets news from DroneZone</h5>
+              <p>
+                We have started the development on the application and are in
+                the beginning of our frist sprint out of three. The basic application structure are done 
+                and we are in the progress of designing and implementing the foundation of our ideas.
+              </p>
           </div>
         </div>
       </div>  
