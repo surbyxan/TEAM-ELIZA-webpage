@@ -78,13 +78,27 @@
   margin-top: 2rem;
 }
 
+.contactinfo{
+  border-top: #4a5568 solid 1.5px;
+  padding: 1rem 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.mailtext{
+  /* margin: 0 0 0 2rem ; top right botton left */
+  font-style: italic;
+
+}
+
 
 /****mobile compatible code**/
 @media screen and (max-width: 768px) {
   .topbar {
     padding-left: 1rem; 
     flex-direction: row; 
-
+    width: 100%;
+    text-align: center;
   }
 
   .mainbody {
@@ -107,7 +121,10 @@
 @media screen and (max-width: 1085px) {
   .visualbox{
     flex-direction: column;
-  
+    
+  }
+  .contactbox{
+    display: none;
   }
   .newsbox{
     margin-left: 0;

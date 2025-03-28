@@ -27,7 +27,7 @@ function App() {
             <h3 class="title">Drone<span class="highlight">Zone</span></h3>
             <p>
             DroneZone is the webapplication for synchronizing and viewing currently 
-            active and flying drones in Sweden. With the application you can easily fly you drone without
+            active and flying drones in Sweden. With the application you can easily fly your drone without
             interuptning other airbourne objects.
 
             </p>
@@ -53,6 +53,12 @@ function App() {
           </div>
         </div>
       </div>  
+          <div className='contactinfo'>
+              <span class="mailtext">
+                More Questions? Reach us on mail! 
+              <a href="mailto:teameliza@patron.me"> teameliza@patron.me </a>
+              </span>
+          </div>
    </div>
   )
 }
