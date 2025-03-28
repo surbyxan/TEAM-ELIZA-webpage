@@ -21,6 +21,7 @@
   background-color:white;
   display: flex;
   flex-direction: row;
+  width: 100vw;
 }
 
 .contactbox{
@@ -59,12 +60,13 @@
 }
 
 .teambox{
-  text-align: center;
+  
+  
 }
 
 .teamelizatext{
   font-style: italic;
-  /* text-align: center; */
+   text-align: center; 
 }
 
 .newsbox{
