@@ -56,7 +56,7 @@ function App() {
           <div className='contactinfo'>
               <span class="mailtext">
                 More Questions? Reach us on mail! 
-              <a href="mailto:teameliza@patron.me"> teameliza@patron.me </a>
+              <a href="mailto:teameliza@proton.me"> teameliza@proton.me </a>
               </span>
           </div>
    </div>
