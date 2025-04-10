@@ -146,4 +146,7 @@
      text-align: left; 
      padding-left: 10vw;
   }
+  .contactinfo{
+    bottom:auto;
+  }
 }
