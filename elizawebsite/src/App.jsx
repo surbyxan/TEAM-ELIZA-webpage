@@ -30,7 +30,7 @@ function App() {
             DroneZone is a web application for synchronizing and monitoring active, 
             flying drones in Sweden. With this application, you can easily fly your drone
             without interrupting other airborne objects.
-            Checkout our website at <a href='https://tz-dronezone.vercel.app/'>DroneZone!</a>
+            Checkout our website at <a href='https://dronezone.se'>DroneZone!</a>
             </p>
           </div>
         </div>
@@ -45,11 +45,13 @@ function App() {
           </div>
           <div class='newsbox'>
               <h4>Lastets news from DroneZone</h4>
-              <p class="date" >March 27th</p>
+              <p class="date" >April 10th</p>
               <p>
-              We have started the development of the application and are at the beginning of our first 
-              sprint out of three. The basic application structure is done, and we are in the process of 
-              designing and implementing the foundation of our ideas.
+              The second sprint has started. In this sprint, the focus is on the backend and database.
+              In the last sprint, we accomplished our sprint goal by building the webpage, 
+              which is now deployed and up and running.
+              We are continuing the good work and are working towards
+              having a functioning database and backend integrated with our frontend.
               </p>
           </div>
         </div>
