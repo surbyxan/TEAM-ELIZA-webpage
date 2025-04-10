@@ -81,7 +81,8 @@
   margin: 3rem 0 0 0;
   bottom: 0;
 	display: flex;
-  
+  position: absolute;
+  width: 100%;
 }
 
 .mailtext{
