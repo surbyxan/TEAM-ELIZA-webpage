@@ -45,13 +45,13 @@ function App() {
           </div>
           <div className='newsbox'>
               <h4>Lastets news from DroneZone</h4>
-              <p className="date" >April 10th</p>
+              <p className="date" >April 17th</p>
               <p>
-              The second sprint has started. In this sprint, the focus is on the backend and database.
-              In the last sprint, we accomplished our sprint goal by building the webpage, 
-              which is now deployed and up and running.
-              We are continuing the good work and are working towards
-              having a functioning database and backend integrated with our frontend.
+              We have just completed our second sprint, and the application now has
+              basic functionality with a nice UI. The application stores forbidden fly 
+              zones in our new database, and all users have full functionality for storing 
+              user data and devices. Next up is storing every flight path in the database and 
+              viewing other users on the map.
               </p>
           </div>
         </div>
