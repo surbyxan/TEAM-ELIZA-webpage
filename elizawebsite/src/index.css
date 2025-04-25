@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -34,7 +37,15 @@ body {
 
 
 
-h1 {
-  font-size: 3.2em;
+h1,h3 {
+  
   line-height: 1.1;
+  font-family: 'Helvetica';
+  font-style: italic;
+  font-weight: bolder;
+  width: 70%;
+}
+
+@theme {
+  --color-primary-yellow: #FFCC00; 
 }
