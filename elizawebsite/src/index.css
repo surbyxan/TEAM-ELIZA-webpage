@@ -44,8 +44,7 @@ h1,h3 {
   font-family: 'Helvetica';
   font-style: italic;
   font-weight: bolder;
-  width: 70%;
-}
+  }
 
 @theme {
   --color-primary-yellow: #FFCC00; 
