@@ -6,9 +6,9 @@ export function Header() {
 	const navigate = useNavigate();
 	
 	return(
-		<div className="rounded-sm border-b-2 border-b-black border-t border-t-black shadow-[0_4px_5px_rgba(0,0,0,0.5)] pl-8 bg-white flex flex-row">
+		<div className="topbar">
         	<h1 className="text-5xl mt-9 mb-9">
-				TEAM<span className="text-primary-yellow">ELIZA</span>
+				TEAM <span className="text-primary-yellow">ELIZA</span>
 			</h1>
         	<div className="flex items-center gap-4">
 				<div className="flex items-center mr-10 h-12 bg-gray-200 rounded-2xl">
