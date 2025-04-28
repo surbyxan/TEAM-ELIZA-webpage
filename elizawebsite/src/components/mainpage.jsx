@@ -1,4 +1,3 @@
-import './component.css'
 import '../App.css'
 import { Teammember } from './teammember'
 
