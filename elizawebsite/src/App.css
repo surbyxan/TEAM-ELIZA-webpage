@@ -20,11 +20,11 @@
   
 } 
 
-/* .contactbox{
+.navbar{
   display: flex;
   align-items: center;
-  margin: 0 2rem 0 5rem;
-} */
+  
+}
 
 .mainbody{
   display: flex;
@@ -35,16 +35,6 @@
   /* margin: 0; */
 }
 
-.title{
-  /*font-size: 1.875rem; */
-  font-weight: bold;
-  color: #4a5568; /* Equivalent to text-gray-700 */
-  
- }
-
-.highlight{
-  color: #facc15;
-}
 
 .infobox{
   width: 30%;
@@ -98,6 +88,11 @@
     text-align: center;
   }
 
+  .navbar{
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+  }
+
   .mainbody {
     flex-direction: column; 
     margin-left: 0; 
@@ -130,11 +125,9 @@
 @media screen and (max-width: 1085px) {
   .visualbox{
     flex-direction: column;
-    
+    width: 40%;
   }
-  .contactbox{
-    display: none;
-  }
+ 
   .newsbox{
     margin-left: 0;
     font-size: medium;
@@ -143,11 +136,7 @@
      text-align: left; 
      
   }
-   /* .footer{
-    position: relative;
-    bottom: auto;
-    inset-inline: calc(var(--spacing) * 0);
-  }  */
+   
 }
 
 @media screen and (max-height: 770px) {
