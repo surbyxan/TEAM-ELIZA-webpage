@@ -7,10 +7,10 @@ export function Header() {
 	
 	return(
 		<div className="topbar">
-        	<h1 className="text-5xl mt-9 mb-8 w-7/10">
+        	<h1 className="text-5xl mt-9 mb-8 w-7/10 pr-5">
 				TEAM <span className="text-primary-yellow">ELIZA</span>
 			</h1>
-        	<div className='flex items-center w-full justify-end pr-10 sm:pr-20 '>
+        	<div className='flex items-center w-full justify-end pr-5 sm:pr-20 '>
 				<div className="flex items-center mr-10 h-12 bg-gray-200 rounded-2xl ">
 					<button
 					className="text-gray-700 bg-transparent ml-2 font-bold text-sm p-1 w-16 hover:scale-107 transition-all duration-200"
