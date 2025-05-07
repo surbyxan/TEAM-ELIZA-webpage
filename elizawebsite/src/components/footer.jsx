@@ -8,9 +8,9 @@ export function Footer() {
 		  		More Questions? Reach us on mail! 
 				<a href="mailto:teameliza@proton.me"> teameliza@proton.me </a>
 			</div>
-			{/* <div className="absolute right-0 justify-end">
+			<div className="absolute right-0 flex justify-end pr-10 pb-4">
 				<Logo />
-			</div> */}
+			</div>
 		</div>
 	)
 }
