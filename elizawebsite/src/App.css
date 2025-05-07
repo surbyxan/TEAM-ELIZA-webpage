@@ -95,6 +95,7 @@
   .infobox{
     width: 85%;
   }
+
   .visualbox{
     margin-left: 0;
     width: 85%;
@@ -109,8 +110,9 @@
     width: 100%;
   }
   .footer{
-    bottom:auto;
+    bottom:0;
   }
+
   .teamelizatext{
     text-align: center;
   }
@@ -128,10 +130,11 @@
   }
   .teamelizatext{
      text-align: left; 
-     
   }
+
   .footer{
     bottom:auto;
+    position: relative;
   }
    
 }
