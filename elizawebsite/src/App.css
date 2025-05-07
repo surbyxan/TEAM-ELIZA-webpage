@@ -130,10 +130,13 @@
      text-align: left; 
      
   }
+  .footer{
+    bottom:auto;
+  }
    
 }
 
-@media screen and (max-height: 550px) {
+@media screen and (max-height: 630px) {
   .footer{
     position: relative;
   }
