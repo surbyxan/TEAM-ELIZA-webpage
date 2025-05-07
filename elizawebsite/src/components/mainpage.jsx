@@ -33,13 +33,12 @@ export function Mainpage() {
 				</div>
 				<div className='newsbox'>
 					<h4 className='font-bold mt-5 mb-5' >Latests news from DroneZone</h4>
-					<p className="font-bold text-sm mt-4 mb-4" >April 17th</p>
+					<p className="font-bold text-sm mt-4 mb-4" >May 7th</p>
 					<p className='mt-4 mb-4'>
-					We have just completed our second sprint, and the application now has
-					basic functionality with a nice UI. The application stores forbidden fly 
-					zones in our new database, and all users have full functionality for storing 
-					user data and devices. Next up is storing every flight path in the database and 
-					viewing other users on the map.
+					We've begun the final sprint of this project. During this phase, 
+					our main focus is on drone functionality. The sprint goal is to enable users
+					 to see their own drones and other flying drones on the map. 
+					 We'll also be making a few final tweaks and improvements to polish and wrap up DroneZone!
 					</p>
 				</div>
         	</div>
