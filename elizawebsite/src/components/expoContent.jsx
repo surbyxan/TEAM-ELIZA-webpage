@@ -39,7 +39,7 @@ export function ExpoContent() {
 				</div>
 			</div>
 				<div className="ml-7 w-1/4 sm:w-1/2">
-					<h3 className="flex items-center justify-center w-full font-bolder italic mt-8 mb-4 sm:justify-start">Technical Description<span className="text-primary-yellow mr-1"></span><TbDrone/></h3>
+					<h3 className="flex items-center justify-center w-full font-bolder italic mt-8 mb-4 sm:justify-start">Technical Description</h3>
 						<p className="text-center sm:text-left">
 						DroneZone is the outline of an Unmanned Traffic Management (UTM) system for Unmanned Aircraft; particularly drones.
 						The project manages real-time aircraft tracking, identification and accountability according to the regulations for unmanned aircraft in place by the Swedish Ministry of Transport.
