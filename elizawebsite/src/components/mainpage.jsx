@@ -19,7 +19,7 @@ export function Mainpage() {
 						DroneZone is a web application for synchronizing and monitoring active, 
 						flying drones in Sweden. With this application, you can easily fly your drone
 						without interrupting other airborne objects.
-						Checkout our website at <a href='https://dronezone.se'>DroneZone!</a>
+						Checkout our website at <a className="text-primary-yellow" href='https://dronezone.se'>DroneZone!</a>
 						</p>
 					</div>
 				</div>

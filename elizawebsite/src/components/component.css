@@ -78,6 +78,7 @@
 	text-align: center;
 	width: 13em;
 	z-index: 999;
+	
   }
   .map-city__sign {
 	align-items: center;
@@ -85,7 +86,7 @@
 	border-radius: 0.2rem;
 	border: 0.15em solid var(--city-sign-color-font);
 	box-shadow: 0 0 3px #000;
-	color: var(--city-sign-color-font);
+	color: white;
 	column-gap: 0.3em;
 	display: flex;
 	font-weight: 700;
@@ -97,9 +98,11 @@
 	text-overflow: ellipsis;
 	text-wrap: nowrap;
 	width: max-content;
+	
   }
   .map-city__sign::before {
 	content: attr(data-icon);
+	color: white;
   }
   
   /************/
@@ -116,6 +119,7 @@
   .map-city:hover .map-city__label {
 	animation: fadein 300ms forwards ease-out;
 	display: block;
+	
   }
   
   .map-city:hover .map-city__sign.anim::before {

@@ -20,13 +20,10 @@
 
 a {
   font-weight: 500;
-  color: #facc15;
   text-decoration: inherit;
   font-weight:600;
 }
-a:hover {
-  color: #facc15;
-}
+
 
 body {
 margin: 0;

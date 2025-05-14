@@ -6,7 +6,7 @@ export function Footer() {
 		<div className='footer'>
 			<div className="italic text-left h-10 gap-50 pt-3">
 		  		More Questions? Reach us on mail! 
-				<a href="mailto:teameliza@proton.me"> teameliza@proton.me </a>
+				<a href="mailto:teameliza@proton.me" className="text-primary-yellow" > teameliza@proton.me </a>
 			</div>
 			<div className="absolute right-0 flex justify-end pr-5 sm:pr-10 pb-4">
 				<Logo />
