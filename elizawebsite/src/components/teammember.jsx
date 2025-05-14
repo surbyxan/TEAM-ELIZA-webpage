@@ -18,7 +18,7 @@ export function Teammember() {
 		  </svg>
 		  <div className="map-cities"  >
 			{[
-			  { x: 5, y: 67,  name: "Henrietta Gidehag" , info:""},
+			  { x: 5, y: 67,  name: "Henrietta Gidehag" , info:"https://www.linkedin.com/in/henrietta-gidehag-89b4a02b0/"},
 			  { x: 32, y: 32, name: "Rebecca Ehrnrooth From", anim: "anim-grow" ,info:"https://www.linkedin.com/in/rebeccafrom/" },
 			  { x: 58, y: 83,  name: "Jesper Hesselgren", anim: "anim-slidein" ,info:"https://www.linkedin.com/in/jesper-hesselgren-412220197/" },
 			  { x: 65, y: 22,  name: "Alexander Timsäter", info:"https://www.linkedin.com/in/alexander-tims%C3%A4ter-3141221aa/" },
