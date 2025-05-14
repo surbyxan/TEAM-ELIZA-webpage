@@ -3,8 +3,8 @@ import '../App.css'
 
 export function ExpoContent() {
 	return(
-		<div className="flex flex-col sm:flex-row  gap-10 mt-3 ">
-			<div className="ml-10 w-8/10 sm:w-1/3  ">
+		<div className="flex flex-col sm:flex-row  gap-8 mt-3 ">
+			<div className="ml-10 w-1/3 sm:w-1/3 flex flex-col ">
 				<div >
 					<h3 className="headers">Expo Info</h3>
 					<p className="text-center sm:text-left ">
@@ -20,8 +20,9 @@ export function ExpoContent() {
 					</p>
 				</div>
 			</div>
-			<div className="ml-10 w-8/10 sm:w-1/3 ">
-				<div >
+			<div className="flex flex-row ml-10 w-full sm:w-2/3 ">
+			<div className="flex flex-col w-1/3">
+				<div className="" >
 					<h3 className="headers">Zoom link</h3>
 					<p className="text-center sm:text-left">
 						If you're not able to visit the expo, join us on zoom for a virtual expo! 
@@ -30,20 +31,20 @@ export function ExpoContent() {
 					</p>
 				</div>
 				<div>
-				<h3 className="flex items-center justify-center w-full font-bolder italic mt-8 mb-4 sm:justify-start">Drone<span className="text-primary-yellow mr-1">Zone</span><TbDrone/></h3>
+				<h3 className="flex items-center justify-center font-bolder italic mt-8 mb-4 sm:justify-start">Drone<span className="text-primary-yellow mr-1">Zone</span><TbDrone/></h3>
 					<p className="text-center sm:text-left">Visit <a href="https://www.dronezone.se/">DroneZone</a> to try out the application! 
 					For the true dronezone experience make sure to make a account, add a drone, draw your flight path and launch the 
 					imaginatory drone!
 					</p>
 				</div>
-				{/*Technical Description */}
-				<div>
-				<h3 className="flex items-center justify-center w-full font-bolder italic mt-8 mb-4 sm:justify-start">Technical Description<span className="text-primary-yellow mr-1"></span><TbDrone/></h3>
-					<p className="text-center sm:text-left">
-					DroneZone is the outline of an Unmanned Traffic Management (UTM) system for Unmanned Aircraft; particularly drones.
-					The project manages real-time aircraft tracking, identification and accountability according to the regulations for unmanned aircraft in place by the Swedish Ministry of Transport.
-					The fullstack web-application uses multiple technologies to enable reliable bi-directional connection and accurate data transfer between all active users to the central control server.
-					</p>
+			</div>
+				<div className="ml-7 w-1/4 sm:w-1/2">
+					<h3 className="flex items-center justify-center w-full font-bolder italic mt-8 mb-4 sm:justify-start">Technical Description<span className="text-primary-yellow mr-1"></span><TbDrone/></h3>
+						<p className="text-center sm:text-left">
+						DroneZone is the outline of an Unmanned Traffic Management (UTM) system for Unmanned Aircraft; particularly drones.
+						The project manages real-time aircraft tracking, identification and accountability according to the regulations for unmanned aircraft in place by the Swedish Ministry of Transport.
+						The fullstack web-application uses multiple technologies to enable reliable bi-directional connection and accurate data transfer between all active users to the central control server.
+						</p>
 				</div>
 			</div>
 		</div>
