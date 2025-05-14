@@ -19,11 +19,11 @@ export function Teammember() {
 		  <div className="map-cities"  >
 			{[
 			  { x: 5, y: 67,  name: "Henrietta Gidehag" , info:""},
-			  { x: 32, y: 32, name: "Rebecca Ehrnrooth From", anim: "anim-grow" ,info:"" },
+			  { x: 32, y: 32, name: "Rebecca Ehrnrooth From", anim: "anim-grow" ,info:"https://www.linkedin.com/in/rebeccafrom/" },
 			  { x: 58, y: 83,  name: "Jesper Hesselgren", anim: "anim-slidein" ,info:"https://www.linkedin.com/in/jesper-hesselgren-412220197/" },
 			  { x: 65, y: 22,  name: "Alexander Timsäter", info:"https://www.linkedin.com/in/alexander-tims%C3%A4ter-3141221aa/" },
 			  { x: 87, y: 58,  name: "Rasmus Sundbom", info:"https://www.linkedin.com/in/rasmus-sundbom-654b29365/" },
-			  { x: 94, y: 38,  name: "Wasim Shamieh",info:"", anim: "anim-slidein" },
+			  { x: 94, y: 38,  name: "Wasim Shamieh",info:"https://www.linkedin.com/in/shamieh/", anim: "anim-slidein" },
 			  { x: 44, y: 55,  name: "Malin Andreasson", info:"https://www.linkedin.com/in/malin-andréasson-29bb08350", anim: "anim-grow" },
 			].map((city, index) => (
 			  <div key={index} style={{ "--x": city.x, "--y": city.y }} className="map-city" >
