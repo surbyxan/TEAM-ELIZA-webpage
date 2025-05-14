@@ -8,9 +8,9 @@ export function ExpoContent() {
 				<div >
 					<h3 className="headers">Expo Info</h3>
 					<p className="text-center sm:text-left ">
-						The expo for DroneZone will take place at KTH Kista. On the expo
+						The expo for DroneZone will take place at KTH Kista. During the expo
 						you will have the chance to talk with our developers, test the 
-						application and ask all the questions that you have about dronezone!
+						application and ask all the questions that you have about DroneZone!
 					</p>
 				</div>
 				<div className="mt-6">
@@ -34,6 +34,15 @@ export function ExpoContent() {
 					<p className="text-center sm:text-left">Visit <a href="https://www.dronezone.se/">DroneZone</a> to try out the application! 
 					For the true dronezone experience make sure to make a account, add a drone, draw your flight path and launch the 
 					imaginatory drone!
+					</p>
+				</div>
+				{/*Technical Description */}
+				<div>
+				<h3 className="flex items-center justify-center w-full font-bolder italic mt-8 mb-4 sm:justify-start">Technical Description<span className="text-primary-yellow mr-1"></span><TbDrone/></h3>
+					<p className="text-center sm:text-left">
+					DroneZone is the outline of an Unmanned Traffic Management (UTM) system for Unmanned Aircraft; particularly drones.
+					The project manages real-time aircraft tracking, identification and accountability according to the regulations for unmanned aircraft in place by the Swedish Ministry of Transport.
+					The fullstack web-application uses multiple technologies to enable reliable bi-directional connection and accurate data transfer between all active users to the central control server.
 					</p>
 				</div>
 			</div>
