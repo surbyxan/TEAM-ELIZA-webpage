@@ -24,11 +24,11 @@ export function Teammember() {
 			  { x: 65, y: 22,  name: "Alexander Timsäter", info:"https://www.linkedin.com/in/alexander-tims%C3%A4ter-3141221aa/" },
 			  { x: 87, y: 58,  name: "Rasmus Sundbom", info:"https://www.linkedin.com/in/rasmus-sundbom-654b29365/" },
 			  { x: 94, y: 38,  name: "Wasim Shamieh",info:"", anim: "anim-slidein" },
-			  { x: 44, y: 55,  name: "Malin Andreasson", info:"www.linkedin.com/in/malin-andréasson-29bb08350", anim: "anim-grow" },
+			  { x: 44, y: 55,  name: "Malin Andreasson", info:"https://www.linkedin.com/in/malin-andréasson-29bb08350", anim: "anim-grow" },
 			].map((city, index) => (
 			  <div key={index} style={{ "--x": city.x, "--y": city.y }} className="map-city" >
 				<div className="map-city__label"  >
-				  <span data-icon={city.icon} className={`map-city__sign ${city.anim || ""}`}  ><a href={city.info} >{city.name}</a> </span>
+				  <span data-icon={city.icon} className={`map-city__sign ${city.anim || ""}`} ><a href={city.info} target="_blank">{city.name}</a> </span>
 				</div>
 			  </div>
 			))}
