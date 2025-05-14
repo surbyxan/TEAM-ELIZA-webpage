@@ -3,11 +3,11 @@ import '../App.css'
 
 export function ExpoContent() {
 	return(
-		<div className="flex flex-col sm:flex-row  gap-10 mt-3">
-			<div className="ml-10 w-8/10 sm:w-1/3">
+		<div className="flex flex-col sm:flex-row  gap-10 mt-3 ">
+			<div className="ml-10 w-8/10 sm:w-1/3  ">
 				<div >
 					<h3 className="headers">Expo Info</h3>
-					<p className="text-center sm:text-left">
+					<p className="text-center sm:text-left ">
 						The expo for DroneZone will take place at KTH Kista. On the expo
 						you will have the chance to talk with our developers, test the 
 						application and ask all the questions that you have about dronezone!
