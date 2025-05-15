@@ -4,7 +4,7 @@ import '../App.css'
 export function ExpoContent() {
 	return(
 		<div className="flex flex-col sm:flex-row  gap-8 mt-3 ">
-			<div className="ml-10 w-1/3 sm:w-1/3 flex flex-col ">
+			<div className="ml-10 w-8/10 sm:w-1/3 flex flex-col ">
 				<div >
 					<h3 className="headers">Expo Info</h3>
 					<p className="text-center sm:text-left ">
@@ -20,8 +20,8 @@ export function ExpoContent() {
 					</p>
 				</div>
 			</div>
-			<div className="flex flex-row ml-10 w-full sm:w-2/3 ">
-			<div className="flex flex-col w-1/3">
+			<div className="flex flex-col sm:flex-row ml-10 w-8/10 sm:w-2/3 ">
+			<div className="flex flex-col w-full sm:w-1/3">
 				<div className="" >
 					<h3 className="headers">Zoom link</h3>
 					<p className="text-center sm:text-left">
@@ -38,7 +38,7 @@ export function ExpoContent() {
 					</p>
 				</div>
 			</div>
-				<div className="ml-7 w-1/4 sm:w-1/2">
+				<div className="ml-7 w-full sm:w-1/2">
 					<h3 className="flex items-center justify-center w-full font-bolder italic mt-8 mb-4 sm:justify-start">Technical Description</h3>
 						<p className="text-center sm:text-left">
 						DroneZone is the outline of an Unmanned Traffic Management (UTM) system for Unmanned Aircraft; particularly drones.
