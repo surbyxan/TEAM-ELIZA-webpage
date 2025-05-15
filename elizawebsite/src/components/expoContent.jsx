@@ -38,7 +38,7 @@ export function ExpoContent() {
 					</p>
 				</div>
 			</div>
-				<div className="ml-7 w-full sm:w-1/2">
+				<div className="sm:ml-7 w-full sm:w-1/2">
 					<h3 className="flex items-center justify-center w-full font-bolder italic mt-8 mb-4 sm:justify-start">Technical Description</h3>
 						<p className="text-center sm:text-left">
 						DroneZone is the outline of an Unmanned Traffic Management (UTM) system for Unmanned Aircraft; particularly drones.
