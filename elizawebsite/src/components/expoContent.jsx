@@ -26,7 +26,7 @@ export function ExpoContent() {
 					<h3 className="headers">Zoom link</h3>
 					<p className="text-center sm:text-left">
 						If you're not able to visit the expo, join us on zoom for a virtual expo! 
-						<span><a className="text-primary-yellow"  href="https://kth-se.zoom.us/j/67893384260"> Zoom Link</a></span>
+						<span><a className="text-primary-yellow"  href="https://kth-se.zoom.us/j/69295164596"> Zoom Link</a></span>
 						. 
 					</p>
 				</div>
